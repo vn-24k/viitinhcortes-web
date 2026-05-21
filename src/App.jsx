@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Scissors, CalendarDays, Clock, User, Phone, ChevronRight, ArrowLeft, CheckCircle2, Star, MapPin, Lock, LogOut, CalendarRange, RotateCcw, WifiOff } from "lucide-react";
-import { Instagram } from "lucide-react";
+import { Instagram } from "lucide-react/dist/esm/icons/instagram";
 
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
 const SUPABASE_KEY = import.meta.env.VITE_SUPABASE_KEY;
